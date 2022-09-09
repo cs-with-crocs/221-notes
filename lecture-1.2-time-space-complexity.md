@@ -1,4 +1,4 @@
-## Lecture 1.2
+## Lecture 1.2: Reasoning About Algorithms and Structures
 
 An algorithm is *correct* if it produces intended result for problem within specified construction.
 
@@ -16,5 +16,25 @@ T(n) = 2n + 3 seconds // example of linear function, line increases with n
 
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/5387769/189448255-cd5eada0-7a0e-4861-9079-70f0ed4f174f.png">
 
-* From the table above, you can see how much time is saved by using an ```n``` instead of an ```2^n``` algorithm
+ * From table above, can see how much time is saved using an ```n``` instead of an ```2^n``` algorithm.
 
+### Example 
+```c++
+int indexOfFirst(vector<int> arr, int q) { // vector<int> is a standard template library
+  for (int i=0; i < arr.size(); i++) {
+    if (arr[i] == q)
+      return i;
+  }
+  return -1;
+}
+```
+* Purpose: Searches for int within array, and returns the index
+* Time Complexity: ```O(n)```
+    * Depends on machine speed, size of array ```n```, and location of ```q``` in the list
+    * Best case: at the very front, is consant
+    * Worst case: Not in the list
+* When should we count?
+```c++
+T(n) = An + B
+T(n) = 2b + 1
+```
