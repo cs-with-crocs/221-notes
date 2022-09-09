@@ -1,6 +1,9 @@
 ## Lecture 1.2
 
-* An algorithm is *correct* if it produces intended result for problem within specified construction
+An algorithm is *correct* if it produces intended result for problem within specified construction.
+
+### Lecture Slides
+https://canvas.ubc.ca/courses/101869/pages/lesson-1-dot-2-2022-09-09-reasoning-about-code-intro?module_item_id=4805629
 
 ### Efficiency of Algorithms
 * **Time** & **Space** are most common metrics
