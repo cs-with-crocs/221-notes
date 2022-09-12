@@ -1,6 +1,6 @@
 # Big O Notation
 
-![Untitled](Big%20O%20Notation%20ca12154c0aca49bfa69f950c634803bf/Untitled.png)
+![image](https://user-images.githubusercontent.com/5387769/189761494-67ff2e69-0d49-4950-a902-a1220dbf4420.png)
 
 # Constant Time = O(1)
 
